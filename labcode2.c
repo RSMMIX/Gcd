@@ -2,14 +2,14 @@
 int main ()
 {
    int num1 , num2 , gcd;
-    printf("");
     scanf("%d %d" , &num1 , &num2);
+    printf("Enter frist number : %d\nEnter srcond numder : %d\n",num1 ,num2);
     for (int i = 1 ; i <= num1 && i <= num2 ; ++i)
     {
         if (num1 % i == 0 && num2 % i == 0)
         gcd = i; 
     }
-    printf("%d",gcd);
+    printf("Greatest common divisor = %d",gcd);
     
     return 0;
 }
